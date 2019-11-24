@@ -17,6 +17,14 @@ a
 	color: #efefef;
 }
 
+h2
+{
+	text-align: center;
+	line-height: 200%;
+	color: #e03328;
+	font-size: 32px;
+}
+
 #container
 {
 	width: 1280px;
