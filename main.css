@@ -1,0 +1,262 @@
+body
+{
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: rgb(0,201,50);
+    background: linear-gradient(90deg, rgba(0,201,50,1) 0%, rgba(227,228,21,1) 50%, rgba(0,205,41,1) 100%);
+}
+
+h2
+{
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    line-height: 200%;
+    color: #e03328;
+}
+
+a
+{
+    text-decoration: none !important;
+}
+
+#logo
+{
+    width: 100%;
+    height: 10vw;
+    background-color: brown;
+}
+
+#nazwa
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    width: 100%;
+    height: 12vw;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: #090b98;
+    color: #efefef;
+    box-shadow: 0 1px 5px #efefef,
+    0 -1px 15px #efefef;
+    text-shadow: 1px 0 4px #000,
+    -1px 0 1px #000,
+    0 1px 4px #000,
+    0 -1px 1px #000;
+}
+
+#sentence
+{
+    height: 24vw;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    line-height: 200%;
+    text-shadow: 1px 0 2px #efefef,
+    -1px 0 1px #efefef,
+    0 1px 2px #efefef,
+    0 -1px 1px #efefef;
+}
+
+#content
+{
+    font-family: 'Dancing Script', cursive;
+    height: 20vw;
+    padding: 2vw;
+    padding-top: 4vw;
+    background-color: #c7c397;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 1vw;
+    text-align: center;
+    box-shadow: 4px 4px 35px 5px rgba(100, 100, 100, 0.9);
+}
+
+#safeAnimal
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 8vw;
+    width: 50vw;
+    max-width: 500px;
+    max-height: 80px;
+}
+
+#safeAnimal img
+{
+    width: 100%;
+    height: auto;
+}
+
+#menu
+{
+    width: 100%;
+    text-shadow: 1px 0 1px #000,
+    -1px 0 1px #000,
+    0 1px 1px #000,
+    0 -1px 1px #000;
+    text-align: center;
+}
+
+.bg-menu
+{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    padding: 0;
+}
+
+.dropdown-menu
+{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    text-shadow: none;
+}
+
+.dropdown-item:hover
+{
+    color: #ee4040;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+#menuButton
+{
+    margin: 0 auto;
+}
+
+#menuTitle
+{
+    font-size: 2vw;
+    text-align: center;
+    height: 5vw;
+    width: 100%;
+    font-weight: 700;
+    padding-top: 1vw;
+    color: #dedede;
+    background-color: #303030;
+    text-shadow: 1px 0 3px #000,
+    -1px 0 1px #000,
+    0 1px 3px #000,
+    0 -1px 1px #000;
+}
+
+#hodowleKotow
+{
+    margin-top: 30px;
+}
+
+.icon
+{
+    margin-top: 30px;
+}
+
+.kontakt
+{
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 20px;
+}
+#galeria
+{
+    font-size: 18px;
+    text-align: center;
+    height: 100%;
+    width: auto;
+    color: #dddddd;
+    padding: 0;
+    line-height: 500%;
+    transition: all 0.2s ease-in-out;
+}
+
+#galeria:hover
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9) rotate(-10deg);
+    cursor: pointer;
+}
+
+#footer
+{
+    width: 100%;
+    background-color: #421811;
+    margin-top: 2vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    color: #eee;
+    padding-top: 1vw;
+}
+
+#fb
+{
+    background-color: #3557a2;
+    width: 180px;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 125px;
+    text-align: center;
+    text-shadow: 1px 0 2px #000,
+    -1px 0 1px #000,
+    0 1px 2px #000,
+    0 -1px 1px #000;
+}
+
+#fb:hover
+{
+    background-color: #244691;
+    cursor: pointer;
+}
+
+#instagram
+{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: #ffffff;
+    width: 180px;
+    border-radius: 50px;
+    height: 125px;
+    text-align: center;
+    text-shadow: 1px 0 2px #000,
+    -1px 0 1px #000,
+    0 1px 2px #000,
+    0 -1px 1px #000;
+}
+
+#instagram:hover
+{
+    background:linear-gradient(45deg, #304cd5, #4740ca, #7229a3, #b02473, #d0205b, #ec0c0c);
+    cursor: pointer;
+}
+
+.icon
+{
+    padding-top: 15px;
+    margin-top: 0;
+    background-color: #eee;
+    width: 180px;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 125px;
+    text-align: center;
+    text-shadow: 1px 0 2px #000,
+    -1px 0 1px #000,
+    0 1px 2px #000,
+    0 -1px 1px #000;
+}
+
+.icon:hover
+{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.space
+{
+    height: 10px;
+}
+
