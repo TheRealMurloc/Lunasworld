@@ -4,8 +4,10 @@ body
     font-family: 'Lato', sans-serif;
     margin: 0 !important;
     padding: 0 !important;
-    background: rgb(0,201,50);
-    background: linear-gradient(90deg, rgba(0,201,50,1) 0%, rgba(227,228,21,1) 50%, rgba(0,205,41,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(140,90,0, 0.95) 0%, rgba(100,100,100,0.8) 50%, rgba(140,90,0, 0.95) 100%);
+    /*background: rgb(0,201,50);*/
+    /*background: linear-gradient(90deg, rgba(0,201,50,1) 0%, rgba(227,228,21,1) 50%, rgba(0,205,41,1) 100%);*/
 }
 
 h2
@@ -14,7 +16,15 @@ h2
     font-weight: 700;
     text-align: center;
     line-height: 200%;
-    color: #e03328;
+    color: #333;
+}
+
+.lunasworld
+{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 1vw;
 }
 
 a
@@ -32,18 +42,18 @@ a
 #nazwa
 {
     font-family: 'Dancing Script', cursive;
-    font-weight: 700;
+    font-weight: 500;
     width: 100%;
     height: 12vw;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-size: 5vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    background-color: #090b98;
+    /*background-color: #292b70;*/
+    background: linear-gradient(90deg, rgba(80, 30, 120, 1) 0%, rgba(102, 158, 205 ,1) 100%);
     color: #efefef;
-    box-shadow: 0 1px 5px #efefef,
-    0 -1px 15px #efefef;
+    box-shadow: 0 1px 5px #efefef;
     text-shadow: 1px 0 4px #000,
     -1px 0 1px #000,
     0 1px 4px #000,
@@ -58,10 +68,10 @@ a
     padding-top: 3vw;
     padding-bottom: 3vw;
     line-height: 200%;
-    text-shadow: 1px 0 2px #efefef,
-    -1px 0 1px #efefef,
-    0 1px 2px #efefef,
-    0 -1px 1px #efefef;
+    text-shadow: 1px 0 2px #ccc,
+    -1px 0 1px #ccc,
+    0 1px 2px #ccc,
+    0 -1px 1px #ccc;
 }
 
 #content
@@ -107,8 +117,7 @@ a
 .bg-menu
 {
     background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-    padding: 0;
+    background-image: linear-gradient(40deg, #000 0%, #421811 50%);
 }
 
 .dropdown-menu
@@ -123,11 +132,6 @@ a
     color: #ee4040;
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-}
-
-#menuButton
-{
-    margin: 0 auto;
 }
 
 #menuTitle
@@ -185,11 +189,11 @@ a
 #footer
 {
     width: 100%;
-    background-color: #421811;
+    background-color: #320801;
     margin-top: 2vw;
     padding-bottom: 1vw;
     padding-left: 2vw;
-    color: #eee;
+    color: #ccc;
     padding-top: 1vw;
 }
 
@@ -259,4 +263,5 @@ a
 {
     height: 10px;
 }
+
 
